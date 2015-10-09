@@ -1,0 +1,12 @@
+/** {*/
+    /*outline: 1px solid red !important;*/
+/*}*/
+
+#id_canvas {
+    border: 1px solid red;
+    background-image: url("img/strcraft_map.jpg");
+}
+
+.container {
+    text-align: center;
+}
