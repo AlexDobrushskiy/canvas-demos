@@ -1,0 +1,25 @@
+.container {
+    margin: auto;
+    width: 80%;
+    border: 1px solid black;
+}
+
+#id_list_container {
+
+}
+
+.circle {
+    list-style-type: circle;
+}
+
+.square {
+    list-style-type: square;
+}
+
+.upper_roman {
+    list-style-type: upper-roman;
+}
+
+.lower_greek {
+    list-style-type: lower-greek;
+}

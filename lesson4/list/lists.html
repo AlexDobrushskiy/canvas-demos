@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="lists.css">
+</head>
+<body>
+    <div class="container">
+        <div id="id_list_container">
+            <ul id="id_list" class="lower_greek">
+                <li id="id_list_example"><input type="text" value="List element"></li>
+                <li><input type="text" value="List element"></li>
+                <li><input type="text" value="List element"></li>
+            </ul>
+        </div>
+        <button id="id_add_li" onclick="add_list_element();">Add list element</button>
+        <div id="id_radio_container">
+            <button id="btn_circle" onclick="set_circle();">Circle</button>
+            <button id="btn_square" onclick="set_square();">Square</button>
+            <button id="btn_upper_roman" onclick="set_upper_roman();">Upper Roman</button>
+            <button id="btn_lower_greek" onclick="set_lower_greek();">Lower Greek</button>
+        </div>
+    </div>
+
+<script src="lists.js"></script>
+</body>
+</html>
